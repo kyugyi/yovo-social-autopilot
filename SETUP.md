@@ -13,36 +13,22 @@ Suis l'ordre. Tu peux faire le **Bloc B** pendant que tu fais tourner des dry-ru
 
 ## Bloc A — Code + GitHub
 
-### A.1 Pousser sur GitHub
+### A.1 Status — DÉJÀ FAIT ✓
 
-```bash
-cd /Users/gostoli/Desktop/code/yovo-social-autopilot
-git init
-git add .
-git commit -m "Initial commit — Yovo social autopilot"
+Le repo est créé et pushé :
 
-# Crée un repo privé sur github.com (par exemple: yovo-social-autopilot)
-gh repo create yovo-social-autopilot --private --source=. --remote=origin --push
-```
+- **Repo** : https://github.com/kyugyi/yovo-social-autopilot (public)
+- **Branche `main`** : code complet
+- **Branche `gh-pages`** : hosting des images
 
-Si tu n'as pas `gh` installé, utilise l'UI GitHub pour créer le repo, puis :
+### A.2 Status — DÉJÀ FAIT ✓
 
-```bash
-git remote add origin git@github.com:<ton-handle>/yovo-social-autopilot.git
-git branch -M main
-git push -u origin main
-```
+GitHub Pages est activé sur la branche `gh-pages`.
 
-### A.2 Activer GitHub Pages (pour héberger les images au moment de publier)
+- **Base URL** : https://kyugyi.github.io/yovo-social-autopilot/
+- Les images poussées sur cette branche seront servies à `https://kyugyi.github.io/yovo-social-autopilot/posts/YYYY-MM-DD/01-hook.png` etc.
 
-Instagram pull les images depuis une URL publique. Le plus simple = GitHub Pages.
-
-1. Sur le repo GitHub → **Settings → Pages**
-2. **Source** = `Deploy from a branch`
-3. **Branch** = créer une branche `gh-pages` (vide pour l'instant)
-4. La routine y poussera les PNG chaque jour avant publication
-
-Tu verras les images publiées à `https://<ton-handle>.github.io/yovo-social-autopilot/posts/2026-05-12/01-hook.png` etc.
+Note : le premier build de Pages peut prendre 1-2 minutes après chaque push.
 
 ---
 

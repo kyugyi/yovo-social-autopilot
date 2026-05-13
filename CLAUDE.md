@@ -50,8 +50,11 @@ On every execution, do these in order:
 7. **If `DRY_RUN=true`**: stop after render. Commit `outputs/{date}/meta.json` and `caption.txt` to a branch `claude/yovo-{date}` so the user can review.
 
 8. **If `DRY_RUN=false`**:
-   - Upload the two PNGs to the `gh-pages` branch under `posts/{date}/`
-   - Pass the resulting public URLs as `PUBLIC_IMAGE_URLS=<url1>,<url2>` to `main.js`
+   - Upload the two PNGs to the `gh-pages` branch under `posts/{date}/`, e.g. `posts/2026-05-13/01-hook.png` and `posts/2026-05-13/02-resolution.png`
+   - The public URLs will be:
+     - `https://kyugyi.github.io/yovo-social-autopilot/posts/{date}/01-hook.png`
+     - `https://kyugyi.github.io/yovo-social-autopilot/posts/{date}/02-resolution.png`
+   - Pass them as `PUBLIC_IMAGE_URLS=<url1>,<url2>` to `main.js`
    - `main.js` will call the Instagram Graph API, publish the carousel, and append the entry to `data/posted-history.json`
    - Commit and push to `main`
 
