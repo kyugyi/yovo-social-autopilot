@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yovo — Slide</title>
+  <style>{{STYLES}}</style>
+</head>
+<body class="theme-{{THEME}} layout-{{LAYOUT}} var-{{VARIATION}}">
+  <div class="canvas">
+    <!-- decorative layers (most are hidden by default, layouts opt them in) -->
+    <div class="deco deco-stripes" aria-hidden="true"></div>
+    <div class="deco deco-divider-top" aria-hidden="true"></div>
+    <div class="deco deco-divider-bottom" aria-hidden="true"></div>
+    <div class="deco deco-bignum" aria-hidden="true">{{BIGNUM}}</div>
+    <div class="deco deco-splitseam" aria-hidden="true"></div>
+
+    <div class="header">
+      <div class="slide-no">{{SLIDE_NO}}</div>
+      <div class="brand-mark">@yovo_app</div>
+    </div>
+
+    <!-- text body — layouts re-style this -->
+    <div class="body">
+      <div class="quote-mark" aria-hidden="true">"</div>
+      <div class="badge">{{BADGE}}</div>
+      <h1 class="headline">{{TEXT}}</h1>
+      <div class="underline-bar" aria-hidden="true"></div>
+    </div>
+
+    <div class="footer">
+      <div class="wordmark">Yovo<span class="dot">.</span></div>
+      <div class="cta">{{FOOTER}}</div>
+    </div>
+  </div>
+</body>
+</html>

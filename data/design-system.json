@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "description": "Parametric Yovo design system. A unique design is identified by a seed (0..999). The seed decomposes into (layout, theme, variation) via deterministic modulo arithmetic — see src/lib/design.js. Every carousel is 3 slides: hook, resolution, CTA. The CTA slide is the same regardless of seed; only the theme is borrowed.",
+    "total_unique_designs": 1000,
+    "decomposition": {
+      "layout_index": "seed % 20",
+      "theme_index": "Math.floor(seed / 20) % 5",
+      "variation_index": "Math.floor(seed / 100) % 10"
+    }
+  },
+  "layouts": [
+    { "id": "L00", "name": "giant_centered",   "desc": "Massive text, perfectly centered. Maximum scroll-stop." },
+    { "id": "L01", "name": "giant_left",       "desc": "Massive text, hard left aligned. Editorial feel." },
+    { "id": "L02", "name": "quote_marks",      "desc": "Oversized opening quote, text below. Magazine pull-quote." },
+    { "id": "L03", "name": "number_bg",        "desc": "Giant '01' or seed number in faded background, text overlay." },
+    { "id": "L04", "name": "word_highlight",   "desc": "One key word painted in accent color, rest in fg." },
+    { "id": "L05", "name": "stacked_offset",   "desc": "Each line of text is indented progressively (staircase)." },
+    { "id": "L06", "name": "all_caps_tight",   "desc": "All caps, tight letter-spacing, bold weight." },
+    { "id": "L07", "name": "countdown",        "desc": "Countdown timer aesthetic: 'TODAY ENDS IN --h --m'." },
+    { "id": "L08", "name": "top_text",         "desc": "Text at the top, lots of breathing room below." },
+    { "id": "L09", "name": "bottom_text",      "desc": "Text near the bottom, lots of breathing room above." },
+    { "id": "L10", "name": "multi_line",       "desc": "Each word on its own line, generous line-height." },
+    { "id": "L11", "name": "punctuated",       "desc": "Aggressive punctuation: 'Stop. Replanning. Start. Moving.'" },
+    { "id": "L12", "name": "underlined",       "desc": "Phrase with thick accent underline beneath key word." },
+    { "id": "L13", "name": "striped_bg",       "desc": "Background with thin accent stripes/lines, text on top." },
+    { "id": "L14", "name": "badge_corner",     "desc": "Small accent badge in a corner ('01'/'today'/'now'), text body." },
+    { "id": "L15", "name": "divider_top",      "desc": "Thick accent bar at the top of canvas, text below." },
+    { "id": "L16", "name": "divider_bottom",   "desc": "Thick accent bar at the bottom, text above." },
+    { "id": "L17", "name": "asymmetric",       "desc": "Text aligned to a non-standard pivot (e.g. center-left)." },
+    { "id": "L18", "name": "minimal_corner",   "desc": "Text small in one corner, vast emptiness elsewhere." },
+    { "id": "L19", "name": "split_block",      "desc": "Canvas split into two color blocks; text spans the seam." }
+  ],
+  "themes": [
+    { "id": "T00", "name": "yovo_green",  "bg": "#F1F4EF", "fg": "#0E1518", "accent": "#1FB57A", "muted_alpha": 0.55 },
+    { "id": "T01", "name": "winter_ark",  "bg": "#0E1518", "fg": "#F1F4EF", "accent": "#1FB57A", "muted_alpha": 0.55 },
+    { "id": "T02", "name": "classy",      "bg": "#F7F4ED", "fg": "#1B1B3A", "accent": "#3A3A8C", "muted_alpha": 0.55 },
+    { "id": "T03", "name": "ink",         "bg": "#FFFFFF", "fg": "#0A0A0A", "accent": "#1FB57A", "muted_alpha": 0.50 },
+    { "id": "T04", "name": "dusk",        "bg": "#1A2B33", "fg": "#F1F4EF", "accent": "#7FE3B4", "muted_alpha": 0.60 }
+  ],
+  "variations": [
+    { "id": "V00", "name": "default",        "desc": "Baseline weights and spacing." },
+    { "id": "V01", "name": "wide_track",     "desc": "Letter-spacing widened across all text." },
+    { "id": "V02", "name": "tight_track",    "desc": "Letter-spacing tightened." },
+    { "id": "V03", "name": "extra_bold",     "desc": "Headline weight pushed to 900." },
+    { "id": "V04", "name": "light_weight",   "desc": "Headline weight dropped to 500 for an editorial calm." },
+    { "id": "V05", "name": "bigger_text",    "desc": "Headline size +15%." },
+    { "id": "V06", "name": "smaller_text",   "desc": "Headline size -10%." },
+    { "id": "V07", "name": "more_padding",   "desc": "Canvas padding +30px on all sides." },
+    { "id": "V08", "name": "less_padding",   "desc": "Canvas padding -20px on all sides." },
+    { "id": "V09", "name": "inverted_accent","desc": "Accent and fg colors swapped." }
+  ]
+}

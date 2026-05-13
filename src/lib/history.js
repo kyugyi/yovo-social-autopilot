@@ -24,13 +24,25 @@ export async function appendEntry(entry) {
   return entry;
 }
 
-export function recentAngleIds(entries, days = 14) {
+function filterRecent(entries, days) {
   const cutoff = Date.now() - days * 24 * 60 * 60 * 1000;
-  return new Set(
-    entries
-      .filter(e => new Date(e.date).getTime() >= cutoff)
-      .map(e => e.angle_id)
-  );
+  return entries.filter(e => new Date(e.date).getTime() >= cutoff);
+}
+
+export function recentAngleIds(entries, days = 14) {
+  return new Set(filterRecent(entries, days).map(e => e.angle_id).filter(Boolean));
+}
+
+export function recentSeeds(entries, days = 60) {
+  return new Set(filterRecent(entries, days).map(e => e.seed).filter(s => Number.isInteger(s)));
+}
+
+export function recentLayouts(entries, days = 7) {
+  return new Set(filterRecent(entries, days).map(e => e.layout).filter(Boolean));
+}
+
+export function recentThemes(entries, days = 3) {
+  return new Set(filterRecent(entries, days).map(e => e.theme).filter(Boolean));
 }
 
 export function lastEntry(entries) {
