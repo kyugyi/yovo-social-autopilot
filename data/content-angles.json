@@ -1,0 +1,62 @@
+{
+  "angles": [
+    { "id": "M01", "type": "manifesto", "theme": "winter_ark", "seed_concept": "Tomorrow doesn't exist yet." },
+    { "id": "M02", "type": "manifesto", "theme": "winter_ark", "seed_concept": "Yesterday won't come back." },
+    { "id": "M03", "type": "manifesto", "theme": "yovo_green", "seed_concept": "All you have is today." },
+    { "id": "M04", "type": "manifesto", "theme": "yovo_green", "seed_concept": "Today. Your list. Yourself. Nothing else." },
+    { "id": "M05", "type": "manifesto", "theme": "classy", "seed_concept": "The horizon is today, not next quarter." },
+
+    { "id": "F01", "type": "feature", "theme": "yovo_green", "seed_concept": "Daily list. Capped at 4 tasks." },
+    { "id": "F02", "type": "feature", "theme": "yovo_green", "seed_concept": "24h per task. Then it's archived." },
+    { "id": "F03", "type": "feature", "theme": "yovo_green", "seed_concept": "Swipe left to archive. Right to act." },
+    { "id": "F04", "type": "feature", "theme": "winter_ark", "seed_concept": "Extreme Mode blocks your distractions." },
+    { "id": "F05", "type": "feature", "theme": "yovo_green", "seed_concept": "48h mode — when one day isn't enough." },
+    { "id": "F06", "type": "feature", "theme": "classy", "seed_concept": "Communoter — share lists, send points." },
+    { "id": "F07", "type": "feature", "theme": "yovo_green", "seed_concept": "Yovo Agent. Encouraging, never chatty." },
+    { "id": "F08", "type": "feature", "theme": "winter_ark", "seed_concept": "Time windows — open only when you choose." },
+    { "id": "F09", "type": "feature", "theme": "yovo_green", "seed_concept": "iOS widget. Check off from home screen." },
+    { "id": "F10", "type": "feature", "theme": "yovo_green", "seed_concept": "Notifications: max 2 per day, no more." },
+
+    { "id": "P01", "type": "problem", "theme": "winter_ark", "seed_concept": "Your to-do list grew faster than your day." },
+    { "id": "P02", "type": "problem", "theme": "winter_ark", "seed_concept": "Replanning is not progress." },
+    { "id": "P03", "type": "problem", "theme": "classy", "seed_concept": "5 productivity apps. 0 finished tasks." },
+    { "id": "P04", "type": "problem", "theme": "winter_ark", "seed_concept": "Yesterday's tasks shouldn't haunt today." },
+    { "id": "P05", "type": "problem", "theme": "yovo_green", "seed_concept": "Endless lists = endless paralysis." },
+    { "id": "P06", "type": "problem", "theme": "classy", "seed_concept": "The to-do you wrote 6 months ago is still there." },
+    { "id": "P07", "type": "problem", "theme": "winter_ark", "seed_concept": "More features won't make you act." },
+    { "id": "P08", "type": "problem", "theme": "yovo_green", "seed_concept": "Notifications stealing your morning." },
+
+    { "id": "C01", "type": "comparison", "theme": "classy", "seed_concept": "Todoist: infinite. Yovo: 4 today." },
+    { "id": "C02", "type": "comparison", "theme": "classy", "seed_concept": "Things 3 plans your decade. Yovo plans your day." },
+    { "id": "C03", "type": "comparison", "theme": "classy", "seed_concept": "Sunsama costs $20/mo. Yovo is free." },
+    { "id": "C04", "type": "comparison", "theme": "yovo_green", "seed_concept": "Less app, more done." },
+    { "id": "C05", "type": "comparison", "theme": "yovo_green", "seed_concept": "Other apps want your time. Yovo gives it back." },
+
+    { "id": "A01", "type": "audience", "theme": "yovo_green", "seed_concept": "For students: study without panic." },
+    { "id": "A02", "type": "audience", "theme": "yovo_green", "seed_concept": "For founders: execute, don't replan." },
+    { "id": "A03", "type": "audience", "theme": "classy", "seed_concept": "For freelancers: bill what matters." },
+    { "id": "A04", "type": "audience", "theme": "yovo_green", "seed_concept": "For parents: 4 lines is enough." },
+    { "id": "A05", "type": "audience", "theme": "winter_ark", "seed_concept": "For athletes: discipline = today." },
+    { "id": "A06", "type": "audience", "theme": "yovo_green", "seed_concept": "For creatives: protect attention." },
+
+    { "id": "B01", "type": "behind-scenes", "theme": "classy", "seed_concept": "Imagined in Switzerland. Coded in Boston." },
+    { "id": "B02", "type": "behind-scenes", "theme": "classy", "seed_concept": "No ads. Ever. Promised." },
+    { "id": "B03", "type": "behind-scenes", "theme": "yovo_green", "seed_concept": "Three themes. One philosophy." },
+    { "id": "B04", "type": "behind-scenes", "theme": "winter_ark", "seed_concept": "Why 4 tasks? 3 is punishing, 5 is procrastination." },
+    { "id": "B05", "type": "behind-scenes", "theme": "classy", "seed_concept": "Local-first. Your data stays on your device." },
+
+    { "id": "T01", "type": "tip", "theme": "yovo_green", "seed_concept": "Write your list in the morning. Not at night." },
+    { "id": "T02", "type": "tip", "theme": "yovo_green", "seed_concept": "Hard tasks first. The list doesn't grow." },
+    { "id": "T03", "type": "tip", "theme": "yovo_green", "seed_concept": "One task = one outcome. Not a project." },
+    { "id": "T04", "type": "tip", "theme": "yovo_green", "seed_concept": "Empty slots are not failure. They are space." },
+    { "id": "T05", "type": "tip", "theme": "classy", "seed_concept": "If you can't finish in 24h, split it." },
+
+    { "id": "R01", "type": "ritual", "theme": "yovo_green", "seed_concept": "Morning ritual: open Yovo, write 4 lines, close." },
+    { "id": "R02", "type": "ritual", "theme": "winter_ark", "seed_concept": "Evening ritual: don't touch tomorrow." },
+    { "id": "R03", "type": "ritual", "theme": "yovo_green", "seed_concept": "Midnight: the archive eats what wasn't done." },
+
+    { "id": "Q01", "type": "quote", "theme": "winter_ark", "seed_concept": "Discipline is daily, not someday." },
+    { "id": "Q02", "type": "quote", "theme": "classy", "seed_concept": "Action beats planning." },
+    { "id": "Q03", "type": "quote", "theme": "winter_ark", "seed_concept": "You are what you finish, not what you list." }
+  ]
+}

@@ -1,0 +1,16 @@
+node_modules/
+.env
+.env.local
+
+# Dry-run renders are kept locally for review, not committed.
+outputs/
+!outputs/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp

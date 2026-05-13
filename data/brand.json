@@ -1,0 +1,67 @@
+{
+  "name": "Yovo",
+  "tagline": "One list a day.",
+  "rule": "One day, one list. Max 4 tasks. 24 hours each. Then archive.",
+  "manifesto": "Tomorrow doesn't exist yet. Yesterday won't come back. Think about today.",
+  "positioning": "Yovo removes the comfort of endless replanning. The daily cap forces selection. The 24-hour limit forces timing. The archive prevents yesterday from endlessly bleeding into today.",
+  "url": "https://app-yovo.com",
+  "appstore": "https://apps.apple.com/app/id6756287088",
+  "instagram_handle": "@yovo_app",
+  "colors": {
+    "_note": "TO CONFIRM with Quentin — defaults below extracted/inferred from the site",
+    "primary": "#0E1518",
+    "accent": "#1FB57A",
+    "background": "#F1F4EF",
+    "surface": "#FFFFFF",
+    "text": "#0E1518",
+    "muted": "#6B7570"
+  },
+  "themes": {
+    "yovo_green": { "bg": "#F1F4EF", "fg": "#0E1518", "accent": "#1FB57A" },
+    "classy":     { "bg": "#F7F4ED", "fg": "#1B1B3A", "accent": "#3A3A8C" },
+    "winter_ark": { "bg": "#0E1518", "fg": "#F1F4EF", "accent": "#1FB57A" }
+  },
+  "fonts": {
+    "_note": "TO CONFIRM with Quentin — defaults to Inter (system fallback). If a Yovo-specific .ttf/.otf is provided, drop it in src/templates/shared/fonts/ and update this entry.",
+    "heading": "Inter",
+    "body": "Inter",
+    "weights": [400, 500, 600, 700, 800]
+  },
+  "voice": {
+    "tone": "minimal, anti-noise, direct, kind but firm",
+    "do": ["short sentences", "concrete words", "present tense", "talk about today", "step by step"],
+    "dont": ["jargon", "hype", "exclamation marks", "tomorrow-promises", "marketing fluff"]
+  },
+  "audience": [
+    "Students who want to study without panicking",
+    "Founders who want to execute step by step",
+    "Freelancers who want to structure the day clearly",
+    "Parents who want a readable day despite interruptions",
+    "Athletes who want stronger discipline",
+    "Anyone who wants a simple, ad-free daily system"
+  ],
+  "features": {
+    "core": [
+      "Daily list (max 4 simultaneous tasks)",
+      "Task expiry and auto-archive after 24h",
+      "Swipe gestures (left: archive; right: duplicate/delete/calendar)"
+    ],
+    "enhancement": [
+      "Three built-in themes (Yovo Green, Classy, Winter Ark)",
+      "Communoter (social layer with QR codes)",
+      "Yovo points system",
+      "Yovo Agent (contextual AI companion)",
+      "Extreme Mode (app-blocking focus feature)",
+      "48h mode (task extension)",
+      "Time windows (restrict app usage to set hours)",
+      "iOS widget and minimal notifications"
+    ]
+  },
+  "quotable_lines": [
+    "One day, one list.",
+    "It removes the comfort of endless replanning.",
+    "Step by step instead.",
+    "Tomorrow doesn't exist yet.",
+    "Yesterday won't come back."
+  ]
+}
